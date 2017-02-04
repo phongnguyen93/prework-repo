@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    >
+  <android.support.design.widget.AppBarLayout
+      android:layout_width="match_parent"
+      android:fitsSystemWindows="true"
+      android:layout_height="56dp"
+      app:elevation="0dp"
+      >
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/MyToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_collapseMode="parallax"
+        />
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        android:text="@string/add_new_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+  </FrameLayout>
+
+  </android.support.design.widget.AppBarLayout>
+
+  <LinearLayout
+      android:orientation="vertical"
+      android:padding="16dp"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+
+    <EditText
+        android:textColor="@android:color/white"
+        android:hint="Label"
+        android:textSize="15sp"
+        android:id="@+id/edt_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        />
+
+    <EditText
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:hint="Description"
+        android:id="@+id/edt_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+
+        />
+    <EditText
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:hint="Date"
+        android:id="@+id/edt_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+
+        />
+    <EditText
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:hint="Time"
+        android:id="@+id/edt_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/btn_done"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:text="@android:string/ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+  </LinearLayout>
+
+</LinearLayout>
