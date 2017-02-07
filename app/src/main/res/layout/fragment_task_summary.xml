@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:custom="http://schemas.android.com/apk/res-auto"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+	<TextView
+			android:layout_toLeftOf="@+id/shadow"
+			android:layout_toStartOf="@+id/shadow"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentStart="true"
+			android:id="@+id/tv_greeting"
+			android:paddingTop="?actionBarSize"
+			android:maxWidth="300dp"
+			android:ellipsize="end"
+			android:maxLines="2"
+			android:paddingStart="16dp"
+			android:paddingEnd="16dp"
+			android:text="@string/greeting_msg"
+			android:textSize="22sp"
+			android:textColor="@color/white"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+	<TextView
+			android:id="@+id/tv_today_date"
+			android:layout_below="@id/tv_greeting"
+			android:paddingLeft="16dp"
+			android:paddingTop="8dp"
+			android:layout_alignParentBottom="true"
+			android:text="Sep 20, 2017"
+			android:textSize="18sp"
+			android:textColor="@color/base"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+	<TextView
+			android:id="@+id/tv_upcoming_task"
+			android:layout_toLeftOf="@+id/shadow"
+			android:layout_toStartOf="@+id/shadow"
+			android:padding="16dp"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentStart="true"
+			android:layout_alignParentLeft="true"
+			android:textStyle="bold"
+			android:text="@string/upcoming_msg"
+			android:textSize="16sp"
+			android:textColor="@color/colorAccent"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+	<View
+			android:id="@+id/shadow"
+			android:layout_toLeftOf="@+id/today_summary_layout"
+			android:layout_toStartOf="@+id/today_summary_layout"
+			android:background="@drawable/left_shadow"
+			android:alpha="0.2"
+			android:layout_width="4dp"
+			android:layout_height="match_parent"/>
+
+	<FrameLayout
+			android:id="@+id/today_summary_layout"
+			android:layout_width="150dp"
+			android:layout_height="match_parent"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentEnd="true">
+
+		<ImageView
+				android:alpha="0.2"
+				android:background="@android:color/background_dark"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"/>
+
+		<RelativeLayout
+				android:paddingStart="16dp"
+				android:paddingEnd="16dp"
+				android:paddingBottom="16dp"
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+
+			<TextView
+					android:layout_marginTop="?actionBarSize"
+					android:id="@+id/tv_today_tasks"
+					android:paddingBottom="4dp"
+					android:text="@string/today_tasks"
+					android:textSize="18sp"
+					android:textColor="@color/base"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"/>
+
+			<TextView
+					android:layout_below="@+id/tv_today_tasks"
+					android:layout_centerHorizontal="true"
+					android:layout_centerVertical="true"
+					android:textSize="15sp"
+					android:text="@string/task_count_msg"
+					android:id="@+id/tv_task_count"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"/>
+
+			<com.github.lzyzsd.circleprogress.ArcProgress
+
+					android:layout_alignParentBottom="true"
+					android:layout_centerHorizontal="true"
+					android:id="@+id/arc_progress"
+					android:layout_width="48dp"
+					android:layout_height="48dp"
+					custom:arc_suffix_text_size="8sp"
+					custom:arc_suffix_text_padding="0dp"
+					custom:arc_finished_color="@color/colorAccent"
+					custom:arc_unfinished_color="@color/base"
+					custom:arc_text_size="14sp"
+					custom:arc_bottom_text_size="9sp"
+					custom:arc_text_color="@color/colorAccent"
+					custom:arc_bottom_text="DONE"/>
+
+		</RelativeLayout>
+
+	</FrameLayout>
+
+</RelativeLayout>
