@@ -87,6 +87,6 @@
 			app:backgroundTint="@color/colorAccent"
 			app:layout_anchor="@+id/task_list_layout"
 			app:layout_anchorGravity="bottom|center"
-			app:layout_behavior="vn.com.phongnguyen93.justdoit.FABScrollBehavior"/>
+			app:layout_behavior="vn.com.phongnguyen93.justdoit.ui_view.FABScrollBehavior"/>
 
 </android.support.design.widget.CoordinatorLayout>
