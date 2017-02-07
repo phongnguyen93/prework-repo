@@ -1,12 +1,41 @@
 <resources>
-  <string name="app_name">JustDoIt</string>
-  <string name="title_activity_main">MainActivity</string>
+	<string name="app_name">Just Do It</string>
+	<string name="title_activity_main">MainActivity</string>
 
-  <string name="navigation_drawer_open">Open navigation drawer</string>
-  <string name="navigation_drawer_close">Close navigation drawer</string>
+	<string name="navigation_drawer_open">Open navigation drawer</string>
+	<string name="navigation_drawer_close">Close navigation drawer</string>
 
-  <string name="action_settings">Settings</string>
-  <string name="add_new_task">Add/Edit your task</string>
+	<string name="action_settings">Settings</string>
+	<string name="add_new_task">Add/Edit your task</string>
+	<string name="task_done_msg">Task done!</string>
+	<string name="tag_picker_hint">Tap to pick your tag</string>
+	<string name="tag">TAG</string>
+	<string name="tag_picker_dialog">Tap to choose your tag</string>
 
 
+	<string name="high_priority"><![CDATA[<br><font color=#ff4d4d>High Priority</br>]]></string>
+	<string name="medium_priority"><![CDATA[<br><font color=#ffa64d>Medium Priority</br>]]></string>
+	<string name="low_priority"><![CDATA[<br><font color=#47d147>Low Priority</br>]]></string>
+	<string name="greeting_msg">Hi,"\n"%s</string>
+	<string name="task_count_msg"><![CDATA[<br><font color=#ff4d4d>%1$d tasks</br>"\n"<br><font color=#ffa64d>%2$d tasks</br>"\n"<br><font color=#47d147>%3$d tasks</br>]]></string>
+	<string name="upcoming_msg">Upcoming task:"\n"%1$s - %2$s</string>
+	<string name="today_tasks">Today tasks:</string>
+
+	<string name="todo_header_msg">TODO: %1$d </string>
+	<string name="done_header_msg">DONE: %1$d </string>
+
+	<string name="title_activity_fullscreen">FullscreenActivity</string>
+	<string name="dummy_button">Dummy Button</string>
+	<string name="dummy_content">DUMMY\nCONTENT</string>
+	<string name="welcome_1_msg">Hi there</string>
+	<string name="welcome_2_msg">How is your day? Busy or not?</string>
+	<string name="welcome_3_msg">How many tasks you have now?</string>
+	<string name="welcome_4_msg">Remember your task at 5:00pm?</string>
+	<string name="welcome_5_msg">Nope ?</string>
+	<string name="welcome_6_msg">So, Why not...</string>
+	<string name="welcome_7_msg">Let\'s me help you</string>
+	<string name="welcome_8_msg">But first, tell me your name</string>
+	<string name="welcome_9_msg">OK, %1$s</string>
+	<string name="welcome_10_msg">Let\'s create your first task!</string>
+	<string name="empty_task_msg">Look like you have no tasks now"\n"Let\'s create new task and get busy!</string>
 </resources>
