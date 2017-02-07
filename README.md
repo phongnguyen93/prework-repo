@@ -6,6 +6,9 @@ Submitted by: **Nguyen Thanh Phong**
 
 Time spent: **36** hours spent in total
 
+## Screenshot 
+<img src='http://i.imgur.com/d2XJnOF.png' title='Video Walkthrough' width='500' height='1000' />
+
 ## User Stories
 
 The following **required** functionality is completed:
@@ -38,13 +41,13 @@ The following **additional** features are implemented:
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
-<img src='http://i.imgur.com/d2XJnOF.png' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+<blockquote class="imgur-embed-pub" lang="en" data-id="rP6Yjgr"><a href="//imgur.com/rP6Yjgr">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+This is a simple app there is not much challenge to implement main features, but it take a lot of time to pick layout, color, font and UI components to build this app
 
 ## License
 
