@@ -4,7 +4,7 @@
 
 Submitted by: **Nguyen Thanh Phong**
 
-Time spent: **X** hours spent in total
+Time spent: **36** hours spent in total
 
 ## User Stories
 
@@ -25,21 +25,21 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] Swipe right on item to show edit/remove button
-* [ ] Swipe left to mark item is done
-* [ ] Tick checkbox to mark item is done
-* [ ] Task summary
-* [ ] Set tag for task with image
-* [ ] Set priority for task (high,medium,low)
-* [ ] Task is group by date and order by status (done/not done)
-* [ ] Notify upcoming task
-* [ ] User friendly guide at first launch
+* [x] Swipe right on item to show edit/remove button
+* [x] Swipe left to mark item is done
+* [x] Tick checkbox to mark item is done
+* [x] Task summary
+* [x] Set tag for task with image
+* [x] Set priority for task (high,medium,low)
+* [x] Task is group by date and order by status (done/not done)
+* [x] Notify upcoming task
+* [x] User friendly guide at first launch
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
+<blockquote class="imgur-embed-pub" lang="en" data-id="rP6Yjgr"><a href="//imgur.com/rP6Yjgr">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
-<img src='http://imgur.com/a/KkTvu' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 ## Notes
